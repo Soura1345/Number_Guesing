@@ -1,13 +1,18 @@
+// IT'S A FUNNY GAME OF NUMBER GUESSING
 const minNum = 1;
 const maxNum = 100;
+
+//Generate random no.
 const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum ;
 
+//Count the no. of attempts
 let attemps = 0;
 let guess;
+
+//Control the loop
 let running = true;
 
 while(running){
-
     guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
     guess = Number(guess);
 
