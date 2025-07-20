@@ -1,4 +1,6 @@
 // IT'S A FUNNY GAME OF NUMBER GUESSING
+
+// The user has to guess a number between 1 and 100
 const minNum = 1;
 const maxNum = 100;
 
